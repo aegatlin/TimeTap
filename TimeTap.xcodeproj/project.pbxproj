@@ -39,14 +39,37 @@
 		C0EC54B92CA8FCA900CA567E /* TimeTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C026C28A2CA95D2000324AA8 /* Exceptions for "TimeTap" folder in "TimeTap" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C0EC54B82CA8FCA900CA567E /* TimeTap */;
+		};
+		C026C28C2CA95D4800324AA8 /* Exceptions for "TimeTapWatch Watch App" folder in "TimeTapWatch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"TimeTapWatch-Watch-App-Info.plist",
+			);
+			target = C026C2492CA9042500324AA8 /* TimeTapWatch Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C026C24B2CA9042500324AA8 /* TimeTapWatch Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C026C28C2CA95D4800324AA8 /* Exceptions for "TimeTapWatch Watch App" folder in "TimeTapWatch Watch App" target */,
+			);
 			path = "TimeTapWatch Watch App";
 			sourceTree = "<group>";
 		};
 		C0EC54BB2CA8FCA900CA567E /* TimeTap */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C026C28A2CA95D2000324AA8 /* Exceptions for "TimeTap" folder in "TimeTap" target */,
+			);
 			path = TimeTap;
 			sourceTree = "<group>";
 		};
@@ -229,6 +252,7 @@
 				DEVELOPMENT_TEAM = 9XYH562BTD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TimeTapWatch-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = TimeTapWatch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.gatlin.TimeTap;
@@ -260,6 +284,7 @@
 				DEVELOPMENT_TEAM = 9XYH562BTD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TimeTapWatch-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = TimeTapWatch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.gatlin.TimeTap;
@@ -410,6 +435,7 @@
 				DEVELOPMENT_TEAM = 9XYH562BTD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeTap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -439,6 +465,7 @@
 				DEVELOPMENT_TEAM = 9XYH562BTD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeTap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
