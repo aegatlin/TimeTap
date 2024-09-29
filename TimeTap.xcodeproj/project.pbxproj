@@ -6,11 +6,45 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C026C2572CA9042600324AA8 /* TimeTapWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C026C24A2CA9042500324AA8 /* TimeTapWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C026C2552CA9042600324AA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EC54B12CA8FCA900CA567E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C026C2492CA9042500324AA8;
+			remoteInfo = "TimeTapWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C026C2582CA9042600324AA8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C026C2572CA9042600324AA8 /* TimeTapWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C026C24A2CA9042500324AA8 /* TimeTapWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeTapWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EC54B92CA8FCA900CA567E /* TimeTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		C026C24B2CA9042500324AA8 /* TimeTapWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TimeTapWatch Watch App";
+			sourceTree = "<group>";
+		};
 		C0EC54BB2CA8FCA900CA567E /* TimeTap */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TimeTap;
@@ -19,6 +53,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C026C2472CA9042500324AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0EC54B62CA8FCA900CA567E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				C0EC54BB2CA8FCA900CA567E /* TimeTap */,
+				C026C24B2CA9042500324AA8 /* TimeTapWatch Watch App */,
 				C0EC54BA2CA8FCA900CA567E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				C0EC54B92CA8FCA900CA567E /* TimeTap.app */,
+				C026C24A2CA9042500324AA8 /* TimeTapWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +91,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C026C2492CA9042500324AA8 /* TimeTapWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C026C25B2CA9042600324AA8 /* Build configuration list for PBXNativeTarget "TimeTapWatch Watch App" */;
+			buildPhases = (
+				C026C2462CA9042500324AA8 /* Sources */,
+				C026C2472CA9042500324AA8 /* Frameworks */,
+				C026C2482CA9042500324AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C026C24B2CA9042500324AA8 /* TimeTapWatch Watch App */,
+			);
+			name = "TimeTapWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "TimeTapWatch Watch App";
+			productReference = C026C24A2CA9042500324AA8 /* TimeTapWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C0EC54B82CA8FCA900CA567E /* TimeTap */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0EC54C72CA8FCAA00CA567E /* Build configuration list for PBXNativeTarget "TimeTap" */;
@@ -55,10 +120,12 @@
 				C0EC54B52CA8FCA900CA567E /* Sources */,
 				C0EC54B62CA8FCA900CA567E /* Frameworks */,
 				C0EC54B72CA8FCA900CA567E /* Resources */,
+				C026C2582CA9042600324AA8 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C026C2562CA9042600324AA8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				C0EC54BB2CA8FCA900CA567E /* TimeTap */,
@@ -80,6 +147,9 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					C026C2492CA9042500324AA8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
 					C0EC54B82CA8FCA900CA567E = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -100,11 +170,19 @@
 			projectRoot = "";
 			targets = (
 				C0EC54B82CA8FCA900CA567E /* TimeTap */,
+				C026C2492CA9042500324AA8 /* TimeTapWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C026C2482CA9042500324AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0EC54B72CA8FCA900CA567E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +193,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C026C2462CA9042500324AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0EC54B52CA8FCA900CA567E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +209,77 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C026C2562CA9042600324AA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C026C2492CA9042500324AA8 /* TimeTapWatch Watch App */;
+			targetProxy = C026C2552CA9042600324AA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		C026C2592CA9042600324AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeTapWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9XYH562BTD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeTapWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.gatlin.TimeTap;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gatlin.TimeTap.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		C026C25A2CA9042600324AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeTapWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9XYH562BTD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeTapWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.gatlin.TimeTap;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gatlin.TimeTap.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
 		C0EC54C52CA8FCAA00CA567E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -305,6 +460,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C026C25B2CA9042600324AA8 /* Build configuration list for PBXNativeTarget "TimeTapWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C026C2592CA9042600324AA8 /* Debug */,
+				C026C25A2CA9042600324AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C0EC54B42CA8FCA900CA567E /* Build configuration list for PBXProject "TimeTap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
