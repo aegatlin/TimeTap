@@ -1,17 +1,13 @@
-//
-//  TimeTapWatchApp.swift
-//  TimeTapWatch Watch App
-//
-//  Created by Austin Gatlin on 29/9/2024.
-//
-
 import SwiftUI
 
 @main
 struct TimeTapWatch_Watch_AppApp: App {
+    @State private var env = Env()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(env)
         }
     }
 }
